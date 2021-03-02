@@ -10,7 +10,7 @@ document.getElementById('button8').addEventListener('click', check8)
 document.getElementById('button9').addEventListener('click', check9)
 document.getElementById('button10').addEventListener('click', check10)
 
-//hiding unclicked options
+// hiding unclicked options
 document.getElementById('divider1').style.display = 'none'
 document.getElementById('divider2').style.display = 'none'
 document.getElementById('divider3').style.display = 'none'
@@ -18,16 +18,15 @@ document.getElementById('divider4').style.display = 'none'
 document.getElementById('divider5').style.display = 'none'
 document.getElementById('divider6').style.display = 'none'
 
-//user enters name
+// user enters name
 const person = prompt('Please enter your name', '[NAME]')
 
-//starting message
+// starting message
 if (person != null) {
   document.getElementById('text1').innerHTML =
   'Hello there, ' + person + '. How are you doing today?'
-  
 }
-//Buttons make the divs appear
+// Buttons make the divs appear
 function check () {
   document.getElementById('divider1').style.display = 'block'
 }
