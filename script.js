@@ -106,7 +106,6 @@ function add () {
 
   calgary = number1add + number2add
 
-
   document.getElementById('answeradd').innerHTML = calgary
 }
 
@@ -143,7 +142,6 @@ function subtract () {
 
   edmonton = number1sub - number2sub
 
-
   document.getElementById('answersub').innerHTML = edmonton
 }
 
@@ -160,7 +158,6 @@ function divide () {
   number2div = parseInt(number2div)
 
   toronto = number1div / number2div
-
 
   document.getElementById('answerdivide').innerHTML = toronto
 }
